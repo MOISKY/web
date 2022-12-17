@@ -1,0 +1,128 @@
+header{
+  background-color: dimgrey;
+}
+
+header h3{
+        color: antiquewhite;
+        margin-left: 8%;
+        text-align: center;
+        display: inline-block;
+}
+header a{
+  color: white;
+}
+.fondo{
+    background-image:url(nrisk.png);
+    background-repeat: no-repeat;
+    width: 1333px;
+    height: 600px;
+    background-size: cover;
+}
+
+p{
+  font-size: 1.1cm;
+  text-align: justify;
+}
+
+body{
+  background-color: #DF3F1A
+}
+.mision{
+  width: 580px;
+  height: 570px;
+  display: inline-block;
+  background-color: dimgray;
+}
+
+.mision h2{
+  font-size: 1.2cm;
+  text-align: center;
+  margin-top: 3cm;
+}
+.mision p{
+  font-size: 0.5cm;
+  text-align: justify;
+  margin-top: 0;
+}
+
+.slider{
+    display: inline-block;
+    width: 55%;
+    height: 560px;
+    overflow: hidden;
+    background-color: dimgray;
+}
+
+.slider ul{
+  display: flex;
+	animation: cambio 60s infinite alternate ease-in-out;
+	padding: 0;
+	width: 530%;
+}
+ 
+.slider li{
+  width: 100%;
+	list-style: none;
+}
+
+.slider img{
+  width: 400px;
+	height: 400px;
+  object-fit: scale-down;
+}
+
+@keyframes cambio{
+	0%{margin-left: 0;}
+	5%{margin-left: 0;}
+
+	10%{margin-left: -100%;}
+	15%{margin-left: -100%;}
+
+	20%{margin-left: -200%;}
+	25%{margin-left: -200%;}
+
+	30%{margin-left: -300%;}
+	35%{margin-left: -300%;}
+
+	40%{margin-left: -400%;}
+	45%{margin-left: -400%;}
+}
+.Dependencias{
+  background-color: dimgray;
+  width: 600px;
+  height: 420px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.Dependencias h2{
+  font-size: 1.2cm;
+  text-align: center;
+}
+.Dependencias li{
+  font-size: 0.7cm;
+}
+.cuadro{
+  display: inline-block;
+  
+}
+.cuadro img{
+  width: fit-content;
+  height: fit-content;
+}
+.seguridad{
+  background-color: dimgray;
+  width: 600px;
+}
+.seguridad h2{
+  font-size: 0.8cm;
+  text-align: center;
+}
+
+.seguridad p{
+  font-size: 0.8cm;
+  text-align: center;
+}
+
+.seguridad li{
+  font-size: 0.7cm;
+}

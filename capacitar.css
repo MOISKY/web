@@ -1,0 +1,75 @@
+header{
+    background-color: dimgrey;
+  }
+  header h3{
+          color: antiquewhite;
+          margin-left: 8%;
+          text-align: center;
+          display: inline-block;
+  }
+  header a{
+    color: white;
+  }
+  body{
+    background-color: #DF3F1A;
+  }
+  
+.caja1{
+    background-color: dimgray;
+    width: 350px;
+    height: 620px;
+    border-color: black;
+    border-style:solid;
+    display: inline-block;
+    margin: 10px;
+    padding: 0.5cm;
+}
+.caja1 p{
+    text-align: justify;
+    font-size: 25px;
+}
+.caja1 img{
+    width: 150;
+    height: 250px;
+    margin: center;
+}
+.caja2{
+    background-color: dimgray;
+    width: 350px;
+    height: 620px;
+    border-color: black;
+    border-style:solid;
+    display: inline-block;
+    padding: 0.5cm;
+    margin: 19px;  
+
+}
+.caja2 li{
+  text-align: justify;
+  font-size: 19px;
+}
+.caja2 img{
+    width: 150;
+    height: 250px;
+    margin: center;
+}
+.caja3{
+  background-color: dimgray;
+  width: 350px;
+  height: 620px;
+  border-color: black;
+  border-style:solid;
+  display: inline-block;
+  padding: 0.5cm;
+  margin: 19px;
+
+}
+.caja3 li{
+text-align: justify;
+font-size: 19px;
+}
+.caja3 img{
+  width: 150;
+  height: 250px;
+  margin-left: 80px;
+}
